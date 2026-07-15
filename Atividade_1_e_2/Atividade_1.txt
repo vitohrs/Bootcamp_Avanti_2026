@@ -1,0 +1,39 @@
+Atividade 01
+Tema: Conceitos básicos de machine learning.
+
+1. Explique, com suas palavras, o que é machine learning?
+R: Machine learning é a área da Inteligência artificial que permite aos computadores aprenderem a identificar padrões a partir 
+de dados fornecidos a ele. 
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de teste em machine learning
+R: Conjunto de treinamento correspondem aos dados base utilizados para treinar o modelo de machine learning de acordo 
+   com o que é desejado que ele identifique.
+   Conjunto de validação correspondem aos dados para avaliar e melhorar o processo de treinamento do modelo, contudo 
+   eles não são utilizados na parte de aprendizado diretamente.
+   Conjunto de teste correspondem aos dados utilizados para avaliar o modelo depois de sua completude, medindo assim
+   o seu desempenho real ao final do treinamento do modelo.
+
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados de treinamento
+R: Caso sejam poucas instâncias que faltem determinado atributo, uma opção seria retirar tais instâncias dos dados de treinamento.
+   Caso muitas instâncias possua o mesmo atributo faltante, a opção seria remover essa determinada coluna de atributo.
+   Outra opção seria utilizar a média ou mediana dos valores para preencher tais lacunas mas estaria mascarando os reais valores.
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o desempenho de um modelo preditivo?
+R: A matriz de confusão é utilizada para visualizar a performance de um algoritmo de classificação.
+   A matriz é dividade entre: Verdadeiro Positivo, Falso Positivo, Verdadei Negativo e Falso Negativo.
+   Por meio dessa matriz podemos calcular a precissão do modelo. Em um exemplo de análise onde se deseja identificar carros 
+   em um banco com imagens de carros e ônibus:
+   - Verdadeiro Positivo é quando o modelo identifica um carro como carro.
+   - Falso Negativo é quando o modelo identifica um carro como ônibus.
+   - Falso Positivo é quando o modelo identifica um ônibus como carro.
+   - Verdadeiro Negativo é quando o modelo identifica um ônibus como ônibus.
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura, entre outras) você acha mais interessante aplicar 
+algoritmos de machine learning?
+R: Vejo uso de machine learning como grande avança tanto na área da saúde quanto na agricultura, já que por meio dela podemos 
+analisar grande volumes de dados e imagens permitindo identificar padrões que seriam muito dificeis apenas com uma análise humana.
+Na saúde os modelos podem trazer dados para diagnósticos precoces de doenças e agilizar tratamentos.
+Já na agricultura os modelos podem monitorar lavouras para aumentar a produtividade e evitar pragas. 
+Ambas trazem melhorias para a qualidade de vida da população como um todo.
+
